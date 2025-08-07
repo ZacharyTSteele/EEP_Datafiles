@@ -74,16 +74,4 @@ While there are 30 parameters in total, the majority of the parameters will be f
 
 Only lines 13-71 of the code that contain the parameters should be adjusted. The rest of the code simply incorporates these parameters to calculate fractional contributions from the different oxygen fluxes, and then uses fractionation factors and exponents and absolute ratios (i.e., of meteoric water & atmospheric oxygen) to estimate δ17OBW, δ18OBW, and Δ′17OBW. 
 
-The data that is provided in the 'ExperimentData' csv can be used to recreate all our predicted δ17OBW, δ18OBW, and Δ′17OBW values using the Δ′17OBW  Model code. This csv should be used in combination with the information presented in Tables 1 & 3 in the manuscript that cover the fixed parameters for the species and captive setting, and some of the parameters that changed between experimental manipulations. 
-
-The 'ExperimentData' consists of seven columns relevant to the different sampling periods of the experiment: 
-MouseID - The ID for the specific mouse in the experiment (1-8) 
-Diet - If the mouse was consuming the control (0.49% NaCl) or 4% NaCl (experimental) diet. The diet consumed is also relevant to the timeframe of the code (if the mouse was eating the 4%NaCl diet, then the turnover will be shorter [2 days], whereas if the animal was eating the 0.49% NaCl diet the turnover will be longer [4 days]. 
-Temp - What temperature (C) the mouse was housed at during that sampling (either 25, 18, or 15C). 
-O2_Inhaled - The amount of O2 inhaled (mL) during the timeframe 
-CO2_Exhaled - The amount of CO2 exhaled (mL) during the timeframe. This should be converted to moles by converting to L and then dividing by 22.4 
-Food_Consumed - The amount of food consumed (kg) during the timeframe 
-Drinking_Water - The water intake (mL) during the timeframe 
-Mass - The average body mass of the animal during the timeframe
-
 If you have any questions when using this code and/or data, please email Zach Steele (ZacharyTaylorSteele@gmail.com).
