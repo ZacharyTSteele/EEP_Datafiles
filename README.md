@@ -1,6 +1,6 @@
 ## Δ′17OBW Models
 
-We generated three models for estimating δ17OBW, δ18OBW, and Δ′17OBW by modifying and adjusting the model and code developed by Steele et al. (2025) and Hu et al. (2023). The Hu et al. (2023) model was derived from the δ18OBW model developed by Kohn (1996), modifying this model to enable calculation of Δ′17OBW. For specific details of the differences between models included in this repository, please see the methods section of the manuscript. 
+We generated three models for estimating δ17OBW, δ18OBW, and Δ′17OBW by modifying and adjusting the model and code developed by Steele et al. (2025) and Hu et al. (2023). The Hu et al. (2023) model was derived from the δ18OBW model developed by Kohn (1996), modifying this model to enable calculation of Δ′17OBW. For specific details regarding these models, please see the methods section of the manuscript. 
 
 We have provided the R code for the 'Scaling and Water Flux' model in this repository because the 'Heart Rate and Water Flux' model only differs in the estimation of field metabolic rate, and because the 'Scaling and WEI' model code has been published elsewhere (see Hu et al. [2023]). If you would like access to the R code for the other two models, these can be requested by contacting Dr. Zachary Steele (zacharytaylorsteele@gmail.com). In addiiton, if you would like the Python code for any of the three models, please contact Dr. Steele as well.
 
