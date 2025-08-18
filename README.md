@@ -65,3 +65,11 @@ While there are 27 parameters in total, the majority of the parameters will be f
 Only lines 13-45 of the code that contain the parameters should be adjusted. The rest of the code simply incorporates these parameters to calculate fractional contributions from the different oxygen fluxes, and then uses fractionation factors and exponents and absolute ratios (i.e., of meteoric water & atmospheric oxygen) to estimate δ17OBW, δ18OBW, and Δ′17OBW. 
 
 If you have any questions when using this code and/or data, please email Dr. Steele (ZacharyTaylorSteele@gmail.com).
+
+Literature Cited
+
+Hu H., B.H. Passey, S.B. Lehmann, N.E. Levin, and B.J. Johnson. 2023. Modeling and interpreting triple oxygen isotope variations in vertebrates, with implications for paleoclimate and paleoecology. Chem Geol 642:121812.
+
+Kohn M.J. 1996. Predicting animal δ18O: accounting for diet and physiological adaptation. Geochim Cosmochim Acta 60:4811–4829.
+
+Steele Z.T., K. Caceres, Z.A. David, L.M. Shollenberger., A.R. Gerson, S.D. Newsome, and J.P. Whiteman. 2025. Validating a novel capability of assessing pathways of animal water gain and loss. R Soc Open Sci 12:241942.
