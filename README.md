@@ -2,6 +2,8 @@
 
 We generated three models for estimating δ17OBW, δ18OBW, and Δ′17OBW by modifying and adjusting the model and code developed by Steele et al. (2025) and Hu et al. (2023). The Hu et al. (2023) model was derived from the δ18OBW model developed by Kohn (1996), modifying this model to enable calculation of Δ′17OBW. For specific details of the differences between models included in this repository, please see the methods section of the manuscript. 
 
+We have provided the R code for the 'Scaling and Water Flux' model in this repository because the 'Heart Rate and Water Flux' model only differs in the estimation of field metabolic rate, and because the 'Scaling and WEI' model code has been published elsewhere (see Hu et al. [2023]). If you would like access to the R code for the other two models, these can be requested by contacting Dr. Zachary Steele (zacharytaylorsteele@gmail.com). In addiiton, if you would like the Python code for any of the three models, please contact Dr. Steele as well.
+
 The first model is included in the R file 'E17O_isotope_scaling_waterflux_model'. This model estimates δ17OBW, δ18OBW, and Δ′17OBW using the following 27 parameters (in order of appearance in R code):
 
 Metabolic pre-exponent (a in aM^b equation)
@@ -58,9 +60,8 @@ Food associated H2O content (%)
 
 Ratio of fractionating plant material (fractionating vs non-fractionating plant tissue)
 
-While there are 27 parameters in total, the majority of the parameters will be fixed for a specific study animal (e.g., skin H2O evaporation rate, Carbohydrate content, Fecal H2O content, etc.) and environment (ambient Temperature, δ18O of meteoric water
-Δ′17O of meteoric water, etc.). This leaves only a small amount of parameters that will change between individuals (e.g., animal body mass). In addition, the captive nature of our experiment resulted in several parameters being included that would otherwise be estimated using metabolic rate (e.g., food intake, inhaled oxygen, exhaled CO2) when studying free-ranging animals (see Hu et al. 2023).
+While there are 27 parameters in total, the majority of the parameters will be fixed for a specific study animal (e.g., skin H2O evaporation rate, Carbohydrate content, Fecal H2O content, etc.) and environment (ambient Temperature, δ18O of meteoric water Δ′17O of meteoric water, etc.). This leaves only a small amount of parameters that will change between individuals (e.g., animal body mass).
 
 Only lines 13-45 of the code that contain the parameters should be adjusted. The rest of the code simply incorporates these parameters to calculate fractional contributions from the different oxygen fluxes, and then uses fractionation factors and exponents and absolute ratios (i.e., of meteoric water & atmospheric oxygen) to estimate δ17OBW, δ18OBW, and Δ′17OBW. 
 
-If you have any questions when using this code and/or data, please email Zach Steele (ZacharyTaylorSteele@gmail.com).
+If you have any questions when using this code and/or data, please email Dr. Steele (ZacharyTaylorSteele@gmail.com).
